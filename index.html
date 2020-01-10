@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Recommended Movies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quattrocento:400,700" rel="stylesheet">
+    
+</head>
+
+<body>
+    <main>
+        <header class="mid search">
+            <h1>Recommended Movies</h1>
+             <div class="back-button"><img id="back-button" src="img/arrow-left.png" data-direction="left" alt="Back Button" title="Back" /></div>
+            <input type="text" id="search-input" placeholder="Search for a movie by entering a title or part of a title ..." />
+            <div class="search-button"><img id="search-button" src="img/magnifying-glass.svg" alt="Search" title="Search" /></div>
+            
+        </header>
+
+        <div class="page" id="search-results">
+            <section class="title"></section>
+            <section class="content search-results-content flex-container"></section>
+            <div>
+                <div class="pagination">
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="page" id="recommend-results">
+            <section class="title"></section>
+            <section class="content recommend-results-content flex-container"></section>
+        </div>
+        
+    </main>
+
+    <div class="attribution">
+        <img src="img/logo/Movie-DB-Logo.svg" alt="The Movie DB" />
+    </div>
+    <script src="./js/key.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
